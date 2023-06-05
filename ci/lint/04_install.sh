@@ -27,8 +27,8 @@ if [ -z "${SKIP_PYTHON_INSTALL}" ]; then
         libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev \
         clang
       env CC=clang python-build "$(cat "${BASE_ROOT_DIR}/.python-version")" "${PYTHON_PATH}"
-    fi
-    export PATH="${PYTHON_PATH}/bin:${PATH}"
+    фи
+     путь экспорта="${PYTHON_PATH}/bin:${PATH}"
     command -v python3
     python3 --version
 fi
